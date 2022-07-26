@@ -1,3 +1,4 @@
+
 export const Discussion = ({ discussion, deleteDiscussion }) => {
   const { id, url, author, avatarUrl, title, createdAt, answer } = discussion;
 

@@ -13,9 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack -c ./webpack.config.prod.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev" : "webpack-dev-server -c ./webpack.config.dev.js"
   },
   "eslintConfig": {
     "extends": [
